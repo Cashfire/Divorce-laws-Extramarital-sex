@@ -15,5 +15,18 @@ mosaicplot(prop, color=T,
            xlab="Divorce law attitud",
            ylab="Extramarital sex attitude",
            cex.axis =0.8)
+# inference
+tab1<-tab
+totalLaw<-rowSums(tab)
+tab2<-cbind(tab1,totalLaw)
+totalSex<-colSums(tab2)
+tab3<-rbind(tab2,totalSex)
+tab4<-as.data.frame(t(tab3))
+pchisq(169.42, 6, lower.tail=F)
+## [1] 5.970443e-34
 
-           
+###
+References:
+
+Data source: http://bit.ly/dasi_gss_data The data above is General Social Survey (GSS). Its codebook is: https://d396qusza40orc.cloudfront.net/statistics%2Fproject%2Fgss1.html The data Citation is: Smith, Tom W., Michael Hout, and Peter V. Marsden. General Social Survey, 1972-2012 [Cumulative File]. ICPSR34802-v1. Storrs, CT: Roper Center for Public Opinion Research, University of Connecticut /Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributors], 2013-09-11. doi:10.3886/ICPSR34802.v1 Persistent URL: http://doi.org/10.3886/ICPSR34802.v1
+###
