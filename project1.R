@@ -26,7 +26,19 @@ pchisq(169.42, 6, lower.tail=F)
 ## [1] 5.970443e-34
 
 ###
-References:
+Conclusion:
+Yes, those who think the divorce laws should be easier are also prone justify the extramarital sex as “no wrong at all” 
+than those who think divorce laws should be difficult. According to this data analysis, 
+if a person said he/she thinks the divorce laws should be easier, you can guess he/she pretends to justify extramarital sex. 
+The H0 hypothesis is rejected because the result of chi-sqaure test is so small. 
+However, the type I error may be occur if H0 is in fact true while we rejected it, 
+so further research should be conducted to check the type I error.
 
-Data source: http://bit.ly/dasi_gss_data The data above is General Social Survey (GSS). Its codebook is: https://d396qusza40orc.cloudfront.net/statistics%2Fproject%2Fgss1.html The data Citation is: Smith, Tom W., Michael Hout, and Peter V. Marsden. General Social Survey, 1972-2012 [Cumulative File]. ICPSR34802-v1. Storrs, CT: Roper Center for Public Opinion Research, University of Connecticut /Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributors], 2013-09-11. doi:10.3886/ICPSR34802.v1 Persistent URL: http://doi.org/10.3886/ICPSR34802.v1
+References:
+Data source: http://bit.ly/dasi_gss_data The data above is General Social Survey (GSS). 
+Its codebook is: https://d396qusza40orc.cloudfront.net/statistics%2Fproject%2Fgss1.html 
+The data Citation is: Smith, Tom W., Michael Hout, and Peter V. Marsden. General Social Survey, 1972-2012 [Cumulative File]. 
+ICPSR34802-v1. Storrs, CT: Roper Center for Public Opinion Research, University of Connecticut /Ann Arbor, 
+MI: Inter-university Consortium for Political and Social Research [distributors], 2013-09-11. 
+doi:10.3886/ICPSR34802.v1 Persistent URL: http://doi.org/10.3886/ICPSR34802.v1
 ###
