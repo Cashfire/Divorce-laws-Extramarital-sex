@@ -1,4 +1,3 @@
-
 ##Introduction##
 ###My research question:
 The people who want to make divorce laws more easier are also prone to justify the extramarital sex as 'no wrong at all', is that true?
